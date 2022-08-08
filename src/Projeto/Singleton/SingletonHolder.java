@@ -1,4 +1,4 @@
-package Projeto;
+package Projeto.Singleton;
 
 public class SingletonHolder {
     private static class InstanceHolder {
