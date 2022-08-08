@@ -4,6 +4,7 @@ import Projeto.Singleton.SingletonEager;
 import Projeto.Singleton.SingletonHolder;
 import Projeto.Singleton.SingletonLazy;
 import Projeto.Strategy.*;
+import Projeto.facade.Facade;
 
 public class test {
     public static void main(String[] args) {
@@ -37,6 +38,11 @@ public class test {
         robo.setComportamento(agressivo);
         robo.mover();
         robo.mover();
+
+        //Facade
+
+        Facade facade =new Facade();
+        facade.migrarCliente("João", "03136040");
 
 
     }
